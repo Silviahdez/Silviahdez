@@ -305,23 +305,29 @@ h1, h2, h3, h4, h5, h6, button {
 
 h1 {
   font-weight: 100;
-  font-size: 3em;
+  font-size: 2.8em;
   margin-top:2em;
   margin-bottom: 0px;
 }
 
 h2 {
   font-weight: 100;
-  font-size: 2em;
-  margin-top: 0px;
-  margin-bottom: 0.5em;
+  font-size: 1.1em;
+  margin: 0px auto;
+  max-width: 630px;
+  color:rgb(51, 51, 51);
+  line-height: 180%;
+  padding-left:20px;
+  padding-right:20px;
 }
 
 p {
   font-weight: 100;
-  font-size: 1.3em;
+  font-size: 1.1em;
   margin-top: 0px;
-  color:#999999;
+  color:rgb(51, 51, 51);
+  line-height: 180%;
+  max-width: 630px;
 }
 
 p a{
@@ -331,18 +337,19 @@ p a{
 .container{
   margin: 0px auto;
   text-align:center;
+  background-color:#f9f9f9;
 }
 
 .header{
   background:url("../silvia.png") no-repeat center top;
+  background-color:#ffffff;
   padding-top:24em;
   padding-bottom:2em;
-  margin-bottom:1em;
-  margin-top:2em;
-  
+  text-align: center;
 }
 
 .module {
+  margin: 0px auto;
   width:100%;
   height:auto;
   padding-top: 3em;
@@ -350,11 +357,10 @@ p a{
 }
 
 .grey {
-  background-color:#f7f7f7;
+  background-color:#f9f9f9;
 }
 
 .module p{
-  max-width: 980px;
   margin:0px auto;
   text-align:left;
   padding-left:20px;
